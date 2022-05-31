@@ -1,0 +1,25 @@
+.nav_bar{
+    background-color: white;
+    overflow: hidden;
+}
+
+.nav_bar h2{
+    text-align: center;
+    color: gray;
+    padding: 22px;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    max-width: 1200px;
+}
+
+.container{
+    margin-top: 20px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="rel">
+    <link rel="stylesheet" href="css/cards.css" class="rel">
+    <link rel="stylesheet" href="css/footer.css" class="rel">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Knowledge Booster</title>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="skills.html">Skills</a>
+        <a href="activities.html">Activities & Challenges</a>
+        <a href="index1.php">Login</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="bg_image" id="bg_img">
+        <div class="bg_text">
+            <h1 style="font-size:50px;  font-style: italic;">Hi!,Learners</h1>
+            <p style=" font-size: 22px;"><q>Start your Learning Today.</q></p>
+            <button onclick="typeWriter()">Let's Start</button>
+            <p id="tp" style="color: white; font-size: 18px;"></p>
+        </div>
+    </div>
+
+    <div class="about">
+        <h2>About This Website</h2>
+        <p>This Website is for B.Tech Students who have in Ist Year,IInd Year or IIIrd Year. In This Website, we are try
+            to cover all the AKtu Curriculum Courses and Added Most Quality Video Lectures.In this Website New Students
+            who are not aware what to do or confused , so Providing the Roadmap for Every Year Separetly and try to
+            cover all Domains with the Most Recent and Top quality Video Lectures.Add all the Latest News Related Aktu
+            so all of you are aware with every News of the Aktu and Add a Section of Challenges related to
+            Hackathon,Hiring competition,Competetive Programming.I am Providing a Feedback page If you have any query
+            can give your Feedback.</p>
+    </div>
+
+    <!--RoadMap-->
+    <h2 style="text-align: center;">Road-Maps</h2>
+    <hr style="max-width: 800px;">
+    <div class="cards">
+        <div class="card">
+            <img src="Images/Web.webp" alt="myPic" class="card_img" />
+            <div class="card_info">
+                <h3 class="card_title">Web Development</h3>
+                <a href="logo.html">
+                    <button>View Now</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://blog.internshala.com/wp-content/uploads/2018/06/how-to-learn-android-app-development.jpg" alt="myPic" class="card_img" />
+            <div class="card_info">
+                <h3 class="card_title">Android Development</h3>
+                <a href="Android.html">
+                    <button>View Now</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Images/2.jpg" alt="myPic" class="card_img" />
+            <div class="card_info">
+                <h3 class="card_title">Pre-Placment</h3>
+                <a href="placement.html" target="_blank">
+                    <button>View Now</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <h2 style="text-align: center;">Feedback</h2>
+    <hr style="max-width: 800px;">
+    <center>
+        <div class="btn_1">
+    <button type="submit" style="font-size: 20px; background-color: grey; padding: 8px; text-decoration: none;"><a href="">Feedback Form</a></button>
+        </div>
+    </center>
+    <br>
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact</a>
+            </p>
+
+            <p>Knowledge Booster &copy; 2021</p>
+        </div>
+
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        var i = 0;
+        var txt = 'Hii! Guys I hope you are doing extermely good.';
+        var speed = 50;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("tp").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+    </script>
+</body>
+</html>

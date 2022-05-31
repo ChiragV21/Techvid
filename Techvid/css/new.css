@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+.wrapper
+{
+    /* position:absolute;
+    top:10%;
+    left:30%;
+    max-width: 1200px;
+    margin: auto;
+     */
+    
+     margin-top: 80px;
+     margin-left: 100px;
+     background-color: red;
+}
+
+.hii{
+
+    background-color: yellow;
+}

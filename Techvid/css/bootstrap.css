@@ -1,0 +1,16 @@
+.navbar{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    max-width: 1200px;
+}
+
+body{
+    background-color: hsl(0, 33%, 83%);
+}
+
