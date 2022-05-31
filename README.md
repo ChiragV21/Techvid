@@ -4,5 +4,5 @@ are interesting in learning technologies. This
 website also having the content of Placement
 Related.
 
-• Technologies Used: HTML, CSS, JS, Bootstrap,
+•Technologies Used: HTML, CSS, JS, Bootstrap,
 PHP and MYSQL.
