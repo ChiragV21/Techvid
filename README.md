@@ -1,8 +1,3 @@
-•Techvid is a E-Learning website mainly for CS/IT Students.
-This Website helps for those students who
-are interesting in learning technologies. This
-website also having the content of Placement
-Related.
-
-•Technologies Used: HTML, CSS, JS, Bootstrap,
-PHP and MYSQL.
+• E-Learning website mainly for Undergraduates. This Website helps students who have interest in learning latest
+technologies. This website also provides contentrelated to placement and Academic Assistance.
+• Technologies Used: HTML, CSS, Javascript, Bootstrap, PHP and MYSQL
